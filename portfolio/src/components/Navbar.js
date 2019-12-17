@@ -2,6 +2,9 @@ import React from "react";
 import { Button, Nav, NavItem } from "reactstrap";
 import SocialIcons from "./SocialIcons";
 const NavBar = props => {
+	const triggerMail = () => {
+		window.open("mailto:lappjeff20@gmail.com");
+	};
 	return (
 		<nav>
 			<Nav fill className="py-2 sticky-top border-bottom shadow-sm ">
@@ -12,7 +15,9 @@ const NavBar = props => {
 					<SocialIcons />
 				</NavItem>
 				<NavItem>
-					<Button color="primary">Contact Me</Button>
+					<Button onClick={triggerMail} color="primary">
+						Contact Me
+					</Button>
 				</NavItem>
 			</Nav>
 		</nav>
