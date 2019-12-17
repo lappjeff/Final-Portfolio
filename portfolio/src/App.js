@@ -1,9 +1,12 @@
 import React from "react";
+import { Container } from "reactstrap";
 import { NavBar } from "./components";
 function App() {
 	return (
 		<div className="App">
-			<NavBar />
+			<Container fluid>
+				<NavBar />
+			</Container>
 		</div>
 	);
 }
