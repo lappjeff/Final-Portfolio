@@ -1,9 +1,11 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
+import ParticlesContainer from "./particles/ParticlesContainer";
 const About = () => {
 	return (
 		<Row className="bg-light pt-5 h-100 align-items-center">
-			<Col className="col-2">
+			<ParticlesContainer />
+			<Col className="col-3 offset-md-1">
 				<img
 					src={require("../../assets/me.jpeg")}
 					alt="Jeff with motorycycle"
@@ -18,8 +20,8 @@ const About = () => {
 						<h4 className="font-weight-normal ">
 							I'm a full-stack developer based out of central Pennsylvania. I
 							strive to create clean, modern designs and API's using
-							cutting-edge technologies to enable a cleaner, more responsible
-							web.
+							cutting-edge web technologies to enable a cleaner, more
+							responsible web.
 						</h4>
 					</Col>
 				</header>
