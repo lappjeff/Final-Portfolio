@@ -3,7 +3,7 @@ import { Row, Col } from "reactstrap";
 import ParticlesContainer from "./particles/ParticlesContainer";
 const About = () => {
 	return (
-		<Row className="bg-light pt-5 h-100 align-items-center">
+		<Row className="bg-light h-100 align-items-center ">
 			<ParticlesContainer />
 			<Col className="col-3 offset-md-1">
 				<img
@@ -13,9 +13,11 @@ const About = () => {
 				></img>
 			</Col>
 			<Col>
-				<header className="d-flex flex-column align-items-center bg-white rounded">
+				<header className="d-flex flex-column align-items-center bg-white rounded py-3">
 					<h3 className="font-weight-light ">Full Stack Developer</h3>
-					<h1 className="font-weight-light ">Clean code, reusable patterns</h1>
+					<h1 className="font-weight-light text-white bg-dark rounded p-2">
+						Clean code, reusable patterns
+					</h1>
 					<Col className="col-8 ">
 						<h4 className="font-weight-light ">
 							I'm a full-stack developer based out of central Pennsylvania. I
