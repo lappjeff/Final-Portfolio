@@ -7,7 +7,7 @@ const NavBar = props => {
 	};
 	return (
 		<nav>
-			<Nav fill className="py-2 sticky-top border-bottom shadow-sm ">
+			<Nav fill className="py-2 bg-white fixed-top border-bottom shadow-sm ">
 				<NavItem>
 					<h3 className="m-0">Jeffrey M. Lapp</h3>
 				</NavItem>
