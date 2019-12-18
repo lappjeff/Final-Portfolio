@@ -35,9 +35,11 @@ const About = () => {
 				</header>
 			</Col>
 			<Col className="text-center ">
-				<Button color="info">
-					<FontAwesomeIcon icon={faArrowDown} size="2x" />
-				</Button>
+				<a href="#projects">
+					<Button color="info">
+						<FontAwesomeIcon icon={faArrowDown} size="2x" />
+					</Button>
+				</a>
 			</Col>
 		</Row>
 	);
