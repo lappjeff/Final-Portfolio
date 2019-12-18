@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col } from "reactstrap";
 const About = () => {
 	return (
-		<Row className="bg-light pt-5">
+		<Row className="bg-light pt-5 h-100 align-items-center">
 			<Col className="col-2">
 				<img
 					src={require("../../assets/me.jpeg")}
