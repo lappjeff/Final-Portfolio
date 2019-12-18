@@ -1,20 +1,22 @@
 export const params = {
 	particles: {
 		number: {
-			value: 115
+			value: 90
 		},
 		size: {
-			value: 2
+			value: 3
 		},
 		color: {
-			value: "#000000"
+			value: "#b61924"
 		},
 		line_linked: {
-			color: "#000000",
-			opacity: 0.08
+			color: "#0069d9",
+			opacity: 0.15,
+			width: 1
 		},
 		move: {
-			attract_enable: true
+			// attract_enable: true,
+			speed: 6
 		}
 	},
 	interactivity: {

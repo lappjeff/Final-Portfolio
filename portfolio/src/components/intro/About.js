@@ -13,11 +13,11 @@ const About = () => {
 				></img>
 			</Col>
 			<Col>
-				<header className="d-flex flex-column align-items-center">
-					<h2 className="font-weight-light ">Full Stack Developer</h2>
-					<h1 className="font-weight-normal ">Clean code, reusable patterns</h1>
+				<header className="d-flex flex-column align-items-center bg-white rounded">
+					<h3 className="font-weight-light ">Full Stack Developer</h3>
+					<h1 className="font-weight-light ">Clean code, reusable patterns</h1>
 					<Col className="col-8 ">
-						<h4 className="font-weight-normal ">
+						<h4 className="font-weight-light ">
 							I'm a full-stack developer based out of central Pennsylvania. I
 							strive to create clean, modern designs and API's using
 							cutting-edge web technologies to enable a cleaner, more
