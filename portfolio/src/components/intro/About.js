@@ -5,6 +5,7 @@ const About = () => {
 	return (
 		<Row className="bg-light h-100 align-items-center ">
 			<ParticlesContainer />
+
 			<Col className="col-3 offset-md-1">
 				<img
 					src={require("../../assets/me.jpeg")}
@@ -14,10 +15,13 @@ const About = () => {
 			</Col>
 			<Col>
 				<header className="d-flex flex-column align-items-center bg-white rounded py-3">
-					<h3 className="font-weight-light ">Full Stack Developer</h3>
-					<h1 className="font-weight-light text-white bg-dark rounded p-2">
-						Clean code, reusable patterns
-					</h1>
+					<Col className="col-8">
+						<h3 className="font-weight-light ">Full Stack Developer</h3>
+						<h1 className="font-weight-light text-center text-white bg-dark rounded p-2 ">
+							Clean code, reusable patterns
+						</h1>
+					</Col>
+
 					<Col className="col-8 ">
 						<h4 className="font-weight-light ">
 							I'm a full-stack developer based out of central Pennsylvania. I
