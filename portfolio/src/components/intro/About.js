@@ -1,6 +1,8 @@
 import React from "react";
-import { Row, Col } from "reactstrap";
+import { Row, Col, Button } from "reactstrap";
 import ParticlesContainer from "./particles/ParticlesContainer";
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const About = () => {
 	return (
 		<Row className="bg-light h-100 align-items-center ">
@@ -13,8 +15,8 @@ const About = () => {
 					className="img-fluid rounded-circle"
 				></img>
 			</Col>
-			<Col>
-				<header className="d-flex flex-column align-items-center bg-white rounded py-3">
+			<Col className="col-8">
+				<header className="d-flex flex-column align-items-center bg-white  rounded py-3">
 					<Col className="col-8">
 						<h3 className="font-weight-light ">Full Stack Developer</h3>
 						<h1 className="font-weight-light text-center text-white bg-dark rounded p-2 ">
@@ -31,6 +33,11 @@ const About = () => {
 						</h4>
 					</Col>
 				</header>
+			</Col>
+			<Col className="text-center ">
+				<Button color="info">
+					<FontAwesomeIcon icon={faArrowDown} size="2x" />
+				</Button>
 			</Col>
 		</Row>
 	);
