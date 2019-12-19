@@ -1,15 +1,14 @@
-import React, { useState } from "react";
-import { Carousel, CarouselControl, CarouselIndicators } from "reactstrap";
-import ProjectItem from "./ProjectItem";
+import React from "react";
+import { UncontrolledCarousel } from "reactstrap";
 
 const items = [
-	{ src: "../../assets/me.jpeg", altText: "Slide 1" },
-	{ src: "../../assets/me.jpeg", altText: "Slide 1" },
-	{ src: "../../assets/me.jpeg", altText: "Slide 1" }
+	{ src: require("../../assets/me.jpeg"), altText: "Slide 1" },
+	{ src: require("../../assets/me.jpeg"), altText: "Slide 1" },
+	{ src: require("../../assets/me.jpeg"), altText: "Slide 1" }
 ];
 
 const ProjectsCarousel = () => {
-	return <h1>Carousel</h1>;
+	return <UncontrolledCarousel items={items} />;
 };
 
 export default ProjectsCarousel;
