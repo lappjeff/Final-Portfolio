@@ -4,8 +4,8 @@ import { NavBar, About } from "./components";
 function App() {
 	return (
 		<div className="App ">
-			<Container fluid className="h-100">
-				<NavBar />
+			<NavBar />
+			<Container fluid>
 				<About />
 			</Container>
 		</div>
